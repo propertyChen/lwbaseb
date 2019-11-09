@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - lwbaseb (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - lwbaseb (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  lwbaseb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  lwbaseb: 6c162f192bb6006fc832b711671d5e264ebe27f5
+
+PODFILE CHECKSUM: b8ec5620d4867d71d2c48876cced3ca00fd6bb6e
+
+COCOAPODS: 1.7.5
